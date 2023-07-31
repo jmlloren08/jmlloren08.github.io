@@ -2,13 +2,299 @@
 <html lang="en">
 
 <head>
+
+    <title>Marvin's Resume - Profile Page</title>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Tooplate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+    <!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
 </head>
 
-<body>
-    <h1>Hello World!</h1>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Marvin Resume
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="pdf/resume.pdf" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="mx-auto col-lg-5 col-md-5 col-10">
+                    <img src="images/marvin.png" class="img-fluid" alt="Marvin Resume">
+                </div>
+
+                <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                    <div class="hero-text">
+
+                        <h1 class="hero-title">👋 Hi, welcome to my page.</h1>
+
+                        <a href="#" class="email-link">
+                            jaymarvinc.lloren@gmail.com
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">This is Marvin's Resume</h3>
+
+                    <p>A I.T. professional graduate who is seeking to find the opportunity to work in a fun and
+                        challenging working environment that will encourage me to improve and learn new things and
+                        necessary skills as well as be motivated by the company to do my best for the sake of helping
+                        myself and the company advance in the Information Communication Technology (ICT) industry.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> JAY MARVIN LLOREN </li>
+
+                        <li><strong>Date of Birth:</strong> 2 September 1993</li>
+
+                        <li><strong>Website :</strong> jmlloren08.github.io</li>
+
+                        <li><strong>Email :</strong> jaymarvinc.lloren@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/profilepic.png" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h3>Grahic Designing</h3>
+                    <p>As a Graphic Designer, I love crafting compelling visual experiences that leave a lasting impact.
+                        From logo designs to marketing materials, I thrive on transforming ideas into captivating
+                        visuals that communicate brand stories effectively.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h3>Video Editing</h3>
+                    <p>Video Editing is where my creativity truly shines. I have a keen eye for detail and a knack for
+                        assembling footage into engaging videos that convey messages with precision. Whether it's a
+                        promotional video or a cinematic project, I take pride in delivering high-quality, polished
+                        results.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h3>Programming</h3>
+                    <p>With a strong foundation in programming, I enjoy the challenge of developing solutions that
+                        bridge the gap between creativity and functionality. My proficiency in software engineering and
+                        web developing allows me to build robust applications and optimize processes efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h3 class="mb-5 text-center">Work Experience</h3>
+
+                    <div class="owl-carousel owl-theme" id="testimonials-carousel">
+
+                        <div class="item">
+                            <div class="testimonials-thumb d-flex">
+
+                                <div class="testimonials-image">
+                                    <img src="images/isa.png" class="img-fluid" alt="testimonials image">
+                                </div>
+
+                                <div class="testimonials-info">
+
+                                    <h6 class="mb-0">Information Systems Analyst</h6>
+                                    <span>Department of the Interior and Local Government</span>
+                                    <p>July 7, 2017 - Present</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonials-thumb d-flex">
+
+                                <div class="testimonials-image">
+                                    <img src="images/techstaff.png" class="img-fluid" alt="testimonials image">
+                                </div>
+
+                                <div class="testimonials-info">
+                                    <h6 class="mb-0">Commission on Human Rights</h6>
+                                    <span>Technical Staff</span>
+                                    <p>July 15, 2016 - June 30, 2017</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonials-thumb d-flex">
+
+                                <div class="testimonials-image">
+                                    <img src="images/infostaff.png" class="img-fluid" alt="testimonials image">
+                                </div>
+
+                                <div class="testimonials-info">
+                                    <h6 class="mb-0">Infotech Staff</h6>
+                                    <span>Taipan Development, Inc.</span>
+                                    <p>June 26, 2015 - December 26, 2015</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimonials-thumb d-flex">
+
+                                <div class="testimonials-image">
+                                    <img src="images/rep.png" class="img-fluid" alt="testimonials image">
+                                </div>
+
+                                <div class="testimonials-info">
+                                    <h6 class="mb-0">Customer Service Representative</h6>
+                                    <span>Sterling Global Call Center, Inc.</span>
+                                    <p>October 30, 2014 - April 01, 2015</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding pt-0" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <form action="#" method="get" class="contact-form webform" role="form">
+
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                            <label for="cf-name" class="webform-label">Full Name</label>
+                        </div>
+
+                        <div class="form-group d-flex flex-column-reverse">
+                            <input type="email" class="form-control" name="cf-email" id="cf-email"
+                                placeholder="Your Email">
+
+                            <label for="cf-email" class="webform-label">Your Email</label>
+                        </div>
+
+                        <div class="form-group d-flex flex-column-reverse">
+                            <textarea class="form-control" rows="5" name="cf-message" id="cf-message"
+                                placeholder="Your Message"></textarea>
+
+                            <label for="cf-message" class="webform-label">Message</label>
+                        </div>
+
+                        <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+                    </form>
+                </div>
+
+                <div class="mx-auto col-lg-4 col-md-6 col-12">
+                    <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                    <p class="mb-1">+63 997 304 6334</p>
+
+                    <p>
+                        <a href="#">
+                            jaymarvinc.lloren@gmail.com
+                            <i class="fas fa-arrow-right custom-icon"></i>
+                        </a>
+                    </p>
+
+                    <ul class="social-links mt-2">
+                        <li><a href="https://fb.com/dadoyrabe" rel="noopener" class="fab fa-facebook"></a></li>
+                        <li><a href="https://linkedin.com/in/jmlloren08" rel="noopener" class="fab fa-linkedin"></a>
+                        </li>
+                        <li><a href="https://youtube.com/channel/UCvekmOG7mccj-QNQoCV6Rsw" rel="noopener"
+                                class="fab fa-youtube"></a></li>
+                    </ul>
+
+                    <p class="copyright-text mt-5 pt-3">Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Marvin Resume Page
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+
 </body>
 
 </html>
